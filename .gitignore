@@ -4,3 +4,5 @@
 
 /.vs
 /Dummy.Tests/obj
+/Foo.Tests/obj
+/packages/NUnit.3.12.0
