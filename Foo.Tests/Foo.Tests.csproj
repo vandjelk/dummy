@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0718A61-3BDB-4C29-BE62-04D3B545B9AC}</ProjectGuid>
+    <ProjectGuid>{6BF4907C-94A9-4CED-BDFF-C499D4288DDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dummy.Tests</RootNamespace>
-    <AssemblyName>Dummy.Tests</AssemblyName>
+    <RootNamespace>Foo.Tests</RootNamespace>
+    <AssemblyName>Foo.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
