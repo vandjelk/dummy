@@ -42,9 +42,10 @@ object Build : BuildType({
     steps {
         visualStudio {
             path = "Dummy.sln"
-            version = VisualStudioStep.VisualStudioVersion.vs2013
-            msBuildVersion = VisualStudioStep.MSBuildVersion.V12_0
-            msBuildToolsVersion = VisualStudioStep.MSBuildToolsVersion.V12_0
+			version = VisualStudioStep.VisualStudioVersion.vs2019
+            runPlatform = VisualStudioStep.Platform.x86
+            msBuildVersion = VisualStudioStep.MSBuildVersion.V16_0
+            msBuildToolsVersion = VisualStudioStep.MSBuildToolsVersion.V16_0
         }
     }
 
